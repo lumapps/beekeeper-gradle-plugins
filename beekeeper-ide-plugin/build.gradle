@@ -11,16 +11,16 @@ gradlePlugin {
 }
 
 pluginBundle {
-    vcsUrl = 'https://github.com/beekpr/beekeeper-gradle-plugins/'
+    vcsUrl = 'https://github.com/lumapps/beekeeper-gradle-plugins/'
     tags = ['ide', 'beekeeper']
-    website = 'https://github.com/beekpr/beekeeper-gradle-plugins/blob/master/README.md'
+    website = 'https://github.com/lumapps/beekeeper-gradle-plugins/blob/master/README.md'
 
     plugins {
         idePlugin {
             id = 'io.beekeeper.gradle.plugins.ide'
             displayName = 'Beekeeper IDE Plugin'
             description = 'Make projects easily usable within IDEs.'
-            website = 'https://github.com/beekpr/beekeeper-gradle-plugins/blob/master/README.md'
+            website = 'https://github.com/lumapps/beekeeper-gradle-plugins/blob/master/README.md'
         }
     }
 
