@@ -12,16 +12,16 @@ gradlePlugin {
 }
 
 pluginBundle {
-    vcsUrl = 'https://github.com/beekpr/beekeeper-gradle-plugins/'
+    vcsUrl = 'https://github.com/lumapps/beekeeper-gradle-plugins/'
     tags = ['beekeeper']
-    website = 'https://github.com/beekpr/beekeeper-gradle-plugins/blob/master/README.md'
+    website = 'https://github.com/lumapps/beekeeper-gradle-plugins/blob/master/README.md'
 
     plugins {
         licenseCheckPlugin {
             id = 'io.beekeeper.gradle.plugins.license-check'
             displayName = 'Beekeeper License Check'
             description = 'Ensures that you are using the right licenses'
-            website = 'https://github.com/beekpr/beekeeper-gradle-plugins/blob/master/README.md'
+            website = 'https://github.com/lumapps/beekeeper-gradle-plugins/blob/master/README.md'
         }
     }
 

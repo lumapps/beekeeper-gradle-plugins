@@ -30,7 +30,7 @@ gradlePlugin {
 }
 
 pluginBundle {
-    vcsUrl = 'https://github.com/beekpr/beekeeper-gradle-plugin'
+    vcsUrl = 'https://github.com/lumapps/beekeeper-gradle-plugins'
     tags = ['convention', 'beekeeper']
 
     plugins {
@@ -38,7 +38,7 @@ pluginBundle {
             id = 'io.beekeeper.gradle.plugin'
             displayName = 'Beekeeper Gradle Plugin'
             description = 'A plugin that runs a set of utility plugins used at beekeeper'
-            website = 'https://github.com/beekpr/beekeeper-gradle-plugins/blob/master/README.md'
+            website = 'https://github.com/lumapps/beekeeper-gradle-plugins/blob/master/README.md'
         }
     }
 

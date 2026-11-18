@@ -25,37 +25,37 @@ gradlePlugin {
 }
 
 pluginBundle {
-    vcsUrl = 'https://github.com/beekpr/beekeeper-gradle-plugins/'
+    vcsUrl = 'https://github.com/lumapps/beekeeper-gradle-plugins/'
     tags = ['beekeeper']
-    website = 'https://github.com/beekpr/beekeeper-gradle-plugins/blob/master/README.md'
+    website = 'https://github.com/lumapps/beekeeper-gradle-plugins/blob/master/README.md'
 
     plugins {
         securityPlugin {
             id = 'io.beekeeper.gradle.plugins.security'
             displayName = 'Beekeeper Security Check'
             description = 'Ensures that there are no security problems with the code base.'
-            website = 'https://github.com/beekpr/beekeeper-gradle-plugins/blob/master/README.md'
+            website = 'https://github.com/lumapps/beekeeper-gradle-plugins/blob/master/README.md'
         }
 
         dependencyCheckPlugin {
             id = 'io.beekeeper.gradle.plugins.security.dependencyCheck'
             displayName = 'Beekeeper DependencyCheck convention'
             description = 'Ensures that there are no security problems with the code base.'
-            website = 'https://github.com/beekpr/beekeeper-gradle-plugins/blob/master/README.md'
+            website = 'https://github.com/lumapps/beekeeper-gradle-plugins/blob/master/README.md'
         }
 
         dependencyTrackPlugin {
             id = 'io.beekeeper.gradle.plugins.security.cyclonedx'
             displayName = 'Beekeeper cyclonedx convention'
             description = 'Ensures the Beekeeper configuration for cyclonedx.'
-            website = 'https://github.com/beekpr/beekeeper-gradle-plugins/blob/master/README.md'
+            website = 'https://github.com/lumapps/beekeeper-gradle-plugins/blob/master/README.md'
         }
 
         patchVulnerableLibrariesPlugin {
             id = 'io.beekeeper.gradle.plugins.security.patcher'
             displayName = 'Patcher for known security vulnerabilities'
             description = 'Enables libraries with CVEs to be patched in one place.'
-            website = 'https://github.com/beekpr/beekeeper-gradle-plugins/blob/master/README.md'
+            website = 'https://github.com/lumapps/beekeeper-gradle-plugins/blob/master/README.md'
         }
     }
 
